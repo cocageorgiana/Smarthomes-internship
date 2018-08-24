@@ -1,0 +1,30 @@
+@import '../../variables.less';
+
+.UserAction {
+  min-height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border-top: @box-border;
+
+  &--active {
+    background: rgba(127, 140, 141, 0.6);
+  }
+  &__icon {
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__action {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.UserAction:hover {
+  background: rgba(189, 195, 199, 0.6);
+}

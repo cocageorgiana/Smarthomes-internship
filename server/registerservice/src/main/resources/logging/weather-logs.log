@@ -1,0 +1,6 @@
+2018-07-17 17:21:57 ERROR WeatherServiceImpl:97 - com.example.smarthomes.weatherservice.boundry.exceptions.WeatherGenericException: GET Request to the AccuWeather API failed with status code=401
+2018-07-17 17:22:01 ERROR WeatherServiceImpl:97 - com.example.smarthomes.weatherservice.boundry.exceptions.WeatherGenericException: GET Request to the AccuWeather API failed with status code=401
+2018-07-17 17:22:04 ERROR WeatherServiceImpl:97 - com.example.smarthomes.weatherservice.boundry.exceptions.WeatherGenericException: GET Request to the AccuWeather API failed with status code=503
+2018-07-17 17:22:30 ERROR WeatherServiceImpl:97 - com.example.smarthomes.weatherservice.boundry.exceptions.WeatherGenericException: GET Request to the AccuWeather API failed with status code=503
+2018-07-17 17:23:04 ERROR WeatherServiceImpl:52 - com.example.smarthomes.weatherservice.boundry.exceptions.WeatherGenericException: GET Request to the Accu-Weather API failed with status code=503
+2018-07-17 17:24:06 ERROR WeatherServiceImpl:52 - com.example.smarthomes.weatherservice.boundry.exceptions.WeatherGenericException: GET Request to the Accu-Weather API failed with status code=503

@@ -1,0 +1,41 @@
+@import '../../variables.less';
+
+.Person {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+
+  &__left {
+    display: inline-flex;
+    align-items: center;
+    
+    &__avatar {
+      display: inline-flex;
+      width: 30px;
+      height: 30px;
+      margin: 10px;
+      border: @box-border;
+      border-radius: 50%;
+    }
+  
+    &__name {
+      display: inline-flex;
+      margin-left: 10px;
+    }
+  }
+  
+
+  &__actions {
+    display: inline-flex;
+    
+    &__message:hover {
+      cursor: pointer;
+    }
+    &__expand:hover {
+      cursor: pointer;
+    }
+  }
+  
+
+}

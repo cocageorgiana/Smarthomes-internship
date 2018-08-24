@@ -1,0 +1,10 @@
+2018-07-17 17:14:41 ERROR RegisterController:39 - java.lang.Exception: Registration failed with response code = 500, constraint violated
+2018-07-17 17:14:42 ERROR RegisterController:39 - java.lang.Exception: Registration failed with response code = 500, constraint violated
+2018-07-17 17:14:44 ERROR RegisterController:39 - java.lang.Exception: Registration failed with response code = 500, constraint violated
+2018-07-17 17:14:45 ERROR RegisterController:39 - java.lang.Exception: Registration failed with response code = 500, constraint violated
+2018-07-23 13:12:59 ERROR RegisterController:39 - java.lang.Exception: Registration failed with response code = 500, constraint violated
+2018-07-23 13:13:12 ERROR RegisterController:39 - java.lang.Exception: Registration failed with response code = 500, constraint violated
+2018-07-23 13:19:58 ERROR RegisterController:33 - java.lang.Exception: Registration failed with response code = 403, email already exists
+2018-07-23 13:22:15 ERROR RegisterController:33 - java.lang.Exception: Registration failed with response code = 403, email already exists
+2018-07-23 13:22:56 ERROR RegisterController:33 - java.lang.Exception: Registration failed with response code = 403, email already exists
+2018-07-23 13:29:18 ERROR RegisterController:33 - java.lang.Exception: Registration failed with response code = 403, email already exists

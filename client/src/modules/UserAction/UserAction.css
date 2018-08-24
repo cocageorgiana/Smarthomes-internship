@@ -1,0 +1,26 @@
+.UserAction {
+  min-height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border-top: 0.5px solid rgba(0, 26, 51, 0.3);
+}
+.UserAction--active {
+  background: rgba(127, 140, 141, 0.6);
+}
+.UserAction__icon {
+  height: 40px;
+  width: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.UserAction__action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.UserAction:hover {
+  background: rgba(189, 195, 199, 0.6);
+}

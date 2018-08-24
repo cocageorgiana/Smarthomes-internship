@@ -1,0 +1,65 @@
+@import '../../variables.less';
+
+.houseCard {
+  width: @house-card-w;
+  height: @house-card-h;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: @box-border;
+  margin: @house-card-margin;
+  position: relative;
+
+  &__content {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    &__img {
+      width: 90%;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    
+  
+    &__info {
+      text-align: center;
+    
+      &__gridContainer {
+        display: grid;
+        grid-template-columns: auto auto;
+      
+        &__gridItem {
+          font-size: 14px;
+          padding: 5px;
+          text-align: left;
+  
+          &--label {
+            text-align: right;
+          }
+        }
+      }
+    }
+    
+  
+    
+  }
+
+  &__menu {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    button {
+      width: 33.33%;
+      height: 30px;
+      padding: 0px;
+      text-align: center;
+    }
+  }
+}

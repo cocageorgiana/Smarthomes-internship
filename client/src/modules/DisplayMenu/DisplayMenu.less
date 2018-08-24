@@ -1,0 +1,27 @@
+@import '../../variables.less';
+
+.DisplayMenu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: #ddd;
+
+  &__add {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 5px;
+  }
+
+  &__right {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 5px;
+
+    &__search {
+      margin-right: 5px;
+      label {
+        margin-right: 5px;
+      }
+    }
+  }
+}

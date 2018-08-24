@@ -1,0 +1,83 @@
+.weatherCard {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #f1f1f1;
+  width: 300px;
+  height: 100px;
+}
+.weatherCard__location {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.weatherCard__location h2 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #2c3e50;
+}
+.weatherCard__info {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.weatherCard__info__temperature {
+  display: inline-flex;
+  margin-left: 10px;
+  align-items: center;
+  font-weight: 600;
+  font-size: 25px;
+  color: #2c3e50;
+}
+.weatherCard__info__temperature hr {
+  width: 20px;
+  transform: rotate(110deg);
+  margin: 0px;
+}
+.weatherCard__info__temperature__type {
+  font-size: 13px;
+  margin-left: 10px;
+}
+.weatherCard__info__temperature__type hr {
+  width: 10px;
+  transform: rotate(0deg);
+}
+.weatherCard__info__temperature__type__c {
+  font-weight: 100;
+}
+.weatherCard__info__temperature__type__f {
+  font-weight: 100;
+}
+.weatherCard__info__temperature__type__c:hover {
+  font-weight: 600;
+}
+.weatherCard__info__temperature__type__f:hover {
+  font-weight: 600;
+}
+.weatherCard__info__day {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  border: 0.5px solid rgba(0, 26, 51, 0.3);
+}
+.weatherCard__info__night {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  border: 0.5px solid rgba(0, 26, 51, 0.3);
+}
+.weatherCard__footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+.weatherCard__footer__date {
+  margin-left: 10px;
+}
+.weatherCard__footer__seeMore {
+  margin-right: 10px;
+}

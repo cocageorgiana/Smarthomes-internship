@@ -1,0 +1,1 @@
+2018-07-27 13:24:19 ERROR UserServiceImpl:45 - com.example.smarthomes.loginservice.boundry.exceptions.IncorrectCredentialsException: Entered credentials are not correct

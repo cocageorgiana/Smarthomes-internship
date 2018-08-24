@@ -1,0 +1,37 @@
+
+.PopUp {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, .5);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px; 
+    min-height: 350px;
+    width: 70%;
+    max-width: 660px;
+    background: #f1f1f1;
+
+    &__close {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      font-weight: 700;
+      margin: 15px 20px 5px 0px;
+    }
+    &__close:hover {
+      cursor: pointer;
+      color: #e74c3c;
+    }
+  }
+
+    
+}

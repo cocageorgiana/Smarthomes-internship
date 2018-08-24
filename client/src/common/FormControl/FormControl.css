@@ -1,0 +1,16 @@
+.form-container {
+  margin-top: 10px;
+}
+.form-container .form-label {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 3px;
+}
+.form-container .form-input {
+  margin-top: 5px;
+  width: auto;
+}
+.form-container .form-input input {
+  padding: 5px;
+  border: 0.5px solid rgba(0, 26, 51, 0.3);
+}

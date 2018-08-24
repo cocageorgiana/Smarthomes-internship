@@ -1,0 +1,524 @@
+{
+  "route": {
+    "hasTollRoad": false,
+    "hasBridge": false,
+    "boundingBox": {
+      "lr": {
+        "lng": 27.585371,
+        "lat": 46.555606
+      },
+      "ul": {
+        "lng": 26.882555,
+        "lat": 47.172977
+      }
+    },
+    "distance": 80.214,
+    "hasTunnel": false,
+    "hasHighway": true,
+    "computedWaypoints": [],
+    "routeError": {
+      "errorCode": -400,
+      "message": ""
+    },
+    "formattedTime": "01:46:42",
+    "sessionId": "5b506eb3-0095-4ee4-02b4-2340-12133efc4116",
+    "realTime": -1,
+    "hasSeasonalClosure": false,
+    "hasCountryCross": false,
+    "fuelUsed": 3.01,
+    "legs": [
+      {
+        "hasTollRoad": false,
+        "hasBridge": false,
+        "destNarrative": "Proceed to IASIO.",
+        "distance": 80.214,
+        "hasTunnel": false,
+        "hasHighway": true,
+        "index": 0,
+        "formattedTime": "01:46:42",
+        "origIndex": 1,
+        "hasSeasonalClosure": false,
+        "hasCountryCross": false,
+        "roadGradeStrategy": [
+          []
+        ],
+        "destIndex": 8,
+        "time": 6402,
+        "hasUnpaved": false,
+        "origNarrative": "Go north on DN2/E85.",
+        "maneuvers": [
+          {
+            "distance": 0.152,
+            "streets": [
+              "Strada Erou Ciprian Pintea"
+            ],
+            "narrative": "Start out going west on Strada Erou Ciprian Pintea toward Strada Pictor Theodor Aman.",
+            "turnType": 0,
+            "startPoint": {
+              "lng": 26.914699,
+              "lat": 46.555606
+            },
+            "index": 0,
+            "formattedTime": "00:00:37",
+            "directionName": "West",
+            "maneuverNotes": [],
+            "linkIds": [],
+            "signs": [],
+            "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key\u003dttPFVWcSkTfAuq1R0Q815Nikoj8bvAVf\u0026size\u003d225,160\u0026locations\u003d46.555606,26.914699|marker-1||46.55582,26.911716|marker-2||\u0026center\u003d46.555713,26.9132075\u0026defaultMarker\u003dnone\u0026zoom\u003d13\u0026rand\u003d-2144795926\u0026session\u003d5b506eb3-0095-4ee4-02b4-2340-12133efc4116",
+            "transportMode": "AUTO",
+            "attributes": 0,
+            "time": 37,
+            "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/icon-dirs-start_sm.gif",
+            "direction": 7
+          },
+          {
+            "distance": 1.066,
+            "streets": [
+              "DN2",
+              "E85"
+            ],
+            "narrative": "Turn right onto DN2/Calea Mărășești/E85. Continue to follow DN2/E85.",
+            "turnType": 2,
+            "startPoint": {
+              "lng": 26.911716,
+              "lat": 46.55582
+            },
+            "index": 1,
+            "formattedTime": "00:02:31",
+            "directionName": "North",
+            "maneuverNotes": [],
+            "linkIds": [],
+            "signs": [],
+            "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key\u003dttPFVWcSkTfAuq1R0Q815Nikoj8bvAVf\u0026size\u003d225,160\u0026locations\u003d46.55582,26.911716|marker-2||46.569938,26.915138|marker-3||\u0026center\u003d46.562878999999995,26.913427\u0026defaultMarker\u003dnone\u0026zoom\u003d9\u0026rand\u003d-2144795926\u0026session\u003d5b506eb3-0095-4ee4-02b4-2340-12133efc4116",
+            "transportMode": "AUTO",
+            "attributes": 0,
+            "time": 151,
+            "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_right_sm.gif",
+            "direction": 1
+          },
+          {
+            "distance": 0.768,
+            "streets": [
+              "DN2",
+              "Bulevardul Unirii",
+              "E85"
+            ],
+            "narrative": "Enter next roundabout and take the 1st exit onto DN2/Bulevardul Unirii/E85. Pass through 1 roundabout.",
+            "turnType": 1,
+            "startPoint": {
+              "lng": 26.915138,
+              "lat": 46.569938
+            },
+            "index": 2,
+            "formattedTime": "00:01:30",
+            "directionName": "East",
+            "maneuverNotes": [],
+            "linkIds": [],
+            "signs": [],
+            "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key\u003dttPFVWcSkTfAuq1R0Q815Nikoj8bvAVf\u0026size\u003d225,160\u0026locations\u003d46.569938,26.915138|marker-3||46.573989,26.930017|marker-4||\u0026center\u003d46.571963499999995,26.9225775\u0026defaultMarker\u003dnone\u0026zoom\u003d10\u0026rand\u003d-2144795926\u0026session\u003d5b506eb3-0095-4ee4-02b4-2340-12133efc4116",
+            "transportMode": "AUTO",
+            "attributes": 128,
+            "time": 90,
+            "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_slight_right_sm.gif",
+            "direction": 8
+          },
+          {
+            "distance": 24.071,
+            "streets": [
+              "DN2",
+              "E85"
+            ],
+            "narrative": "Keep left at the fork to go on DN2/E85.",
+            "turnType": 17,
+            "startPoint": {
+              "lng": 26.930017,
+              "lat": 46.573989
+            },
+            "index": 3,
+            "formattedTime": "00:29:48",
+            "directionName": "North",
+            "maneuverNotes": [],
+            "linkIds": [],
+            "signs": [],
+            "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key\u003dttPFVWcSkTfAuq1R0Q815Nikoj8bvAVf\u0026size\u003d225,160\u0026locations\u003d46.573989,26.930017|marker-4||46.911342,26.917213|marker-5||\u0026center\u003d46.7426655,26.923614999999998\u0026defaultMarker\u003dnone\u0026zoom\u003d5\u0026rand\u003d-2144795926\u0026session\u003d5b506eb3-0095-4ee4-02b4-2340-12133efc4116",
+            "transportMode": "AUTO",
+            "attributes": 128,
+            "time": 1788,
+            "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_fork_left2_sm.gif",
+            "direction": 1
+          },
+          {
+            "distance": 0.508,
+            "streets": [
+              "E85"
+            ],
+            "narrative": "Enter next roundabout and take the 2nd exit onto E85.",
+            "turnType": 0,
+            "startPoint": {
+              "lng": 26.917213,
+              "lat": 46.911342
+            },
+            "index": 4,
+            "formattedTime": "00:00:52",
+            "directionName": "Northeast",
+            "maneuverNotes": [],
+            "linkIds": [],
+            "signs": [],
+            "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key\u003dttPFVWcSkTfAuq1R0Q815Nikoj8bvAVf\u0026size\u003d225,160\u0026locations\u003d46.911342,26.917213|marker-5||46.917358,26.92295|marker-6||\u0026center\u003d46.91435,26.920081500000002\u0026defaultMarker\u003dnone\u0026zoom\u003d10\u0026rand\u003d-2144795926\u0026session\u003d5b506eb3-0095-4ee4-02b4-2340-12133efc4116",
+            "transportMode": "AUTO",
+            "attributes": 128,
+            "time": 52,
+            "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_straight_sm.gif",
+            "direction": 3
+          },
+          {
+            "distance": 1.058,
+            "streets": [
+              "Bulevardul Roman Mușat",
+              "E85"
+            ],
+            "narrative": "Enter next roundabout and take the 1st exit onto Bulevardul Roman Mușat/E85.",
+            "turnType": 1,
+            "startPoint": {
+              "lng": 26.92295,
+              "lat": 46.917358
+            },
+            "index": 5,
+            "formattedTime": "00:02:31",
+            "directionName": "North",
+            "maneuverNotes": [],
+            "linkIds": [],
+            "signs": [],
+            "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key\u003dttPFVWcSkTfAuq1R0Q815Nikoj8bvAVf\u0026size\u003d225,160\u0026locations\u003d46.917358,26.92295|marker-6||46.93029,26.927768|marker-7||\u0026center\u003d46.923823999999996,26.925359\u0026defaultMarker\u003dnone\u0026zoom\u003d9\u0026rand\u003d-2144795926\u0026session\u003d5b506eb3-0095-4ee4-02b4-2340-12133efc4116",
+            "transportMode": "AUTO",
+            "attributes": 0,
+            "time": 151,
+            "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_slight_right_sm.gif",
+            "direction": 1
+          },
+          {
+            "distance": 7.304,
+            "streets": [
+              "E85"
+            ],
+            "narrative": "Enter next roundabout and take the 3rd exit onto E85.",
+            "turnType": 1,
+            "startPoint": {
+              "lng": 26.927768,
+              "lat": 46.93029
+            },
+            "index": 6,
+            "formattedTime": "00:10:05",
+            "directionName": "North",
+            "maneuverNotes": [],
+            "linkIds": [],
+            "signs": [],
+            "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key\u003dttPFVWcSkTfAuq1R0Q815Nikoj8bvAVf\u0026size\u003d225,160\u0026locations\u003d46.93029,26.927768|marker-7||47.027747999999995,26.882555|marker-8||\u0026center\u003d46.979018999999994,26.9051615\u0026defaultMarker\u003dnone\u0026zoom\u003d7\u0026rand\u003d-2144795926\u0026session\u003d5b506eb3-0095-4ee4-02b4-2340-12133efc4116",
+            "transportMode": "AUTO",
+            "attributes": 128,
+            "time": 605,
+            "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_slight_right_sm.gif",
+            "direction": 1
+          },
+          {
+            "distance": 41.431,
+            "streets": [
+              "DN28",
+              "E583"
+            ],
+            "narrative": "Enter next roundabout and take the 2nd exit onto DN28/E583.",
+            "turnType": 0,
+            "startPoint": {
+              "lng": 26.882555,
+              "lat": 47.027748
+            },
+            "index": 7,
+            "formattedTime": "00:50:56",
+            "directionName": "East",
+            "maneuverNotes": [],
+            "linkIds": [],
+            "signs": [],
+            "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key\u003dttPFVWcSkTfAuq1R0Q815Nikoj8bvAVf\u0026size\u003d225,160\u0026locations\u003d47.027747999999995,26.882555|marker-8||47.172976999999996,27.512067|marker-9||\u0026center\u003d47.100362499999996,27.197311\u0026defaultMarker\u003dnone\u0026zoom\u003d5\u0026rand\u003d-2144795926\u0026session\u003d5b506eb3-0095-4ee4-02b4-2340-12133efc4116",
+            "transportMode": "AUTO",
+            "attributes": 128,
+            "time": 3056,
+            "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_straight_sm.gif",
+            "direction": 8
+          },
+          {
+            "distance": 2.943,
+            "streets": [
+              "DN28",
+              "E58",
+              "E583"
+            ],
+            "narrative": "Enter next roundabout and take the 2nd exit onto DN28/E58/E583.",
+            "turnType": 1,
+            "startPoint": {
+              "lng": 27.512067,
+              "lat": 47.172977
+            },
+            "index": 8,
+            "formattedTime": "00:05:18",
+            "directionName": "East",
+            "maneuverNotes": [],
+            "linkIds": [],
+            "signs": [],
+            "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key\u003dttPFVWcSkTfAuq1R0Q815Nikoj8bvAVf\u0026size\u003d225,160\u0026locations\u003d47.172976999999996,27.512067|marker-9||47.166095,27.571018|marker-10||\u0026center\u003d47.169535999999994,27.5415425\u0026defaultMarker\u003dnone\u0026zoom\u003d8\u0026rand\u003d-2144795926\u0026session\u003d5b506eb3-0095-4ee4-02b4-2340-12133efc4116",
+            "transportMode": "AUTO",
+            "attributes": 128,
+            "time": 318,
+            "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_slight_right_sm.gif",
+            "direction": 8
+          },
+          {
+            "distance": 0.176,
+            "streets": [
+              "Strada Gării"
+            ],
+            "narrative": "Turn left onto Strada Gării.",
+            "turnType": 6,
+            "startPoint": {
+              "lng": 27.571018,
+              "lat": 47.166095
+            },
+            "index": 9,
+            "formattedTime": "00:00:33",
+            "directionName": "Northeast",
+            "maneuverNotes": [],
+            "linkIds": [],
+            "signs": [],
+            "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key\u003dttPFVWcSkTfAuq1R0Q815Nikoj8bvAVf\u0026size\u003d225,160\u0026locations\u003d47.166095,27.571018|marker-10||47.167384999999996,27.574232|marker-11||\u0026center\u003d47.16674,27.572625\u0026defaultMarker\u003dnone\u0026zoom\u003d13\u0026rand\u003d-2144795926\u0026session\u003d5b506eb3-0095-4ee4-02b4-2340-12133efc4116",
+            "transportMode": "AUTO",
+            "attributes": 0,
+            "time": 33,
+            "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_left_sm.gif",
+            "direction": 3
+          },
+          {
+            "distance": 0.262,
+            "streets": [
+              "Strada Arcu"
+            ],
+            "narrative": "Turn right onto Strada Arcu.",
+            "turnType": 2,
+            "startPoint": {
+              "lng": 27.574232,
+              "lat": 47.167385
+            },
+            "index": 10,
+            "formattedTime": "00:00:40",
+            "directionName": "East",
+            "maneuverNotes": [],
+            "linkIds": [],
+            "signs": [],
+            "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key\u003dttPFVWcSkTfAuq1R0Q815Nikoj8bvAVf\u0026size\u003d225,160\u0026locations\u003d47.167384999999996,27.574232|marker-11||47.165938999999995,27.579376|marker-12||\u0026center\u003d47.166661999999995,27.576804\u0026defaultMarker\u003dnone\u0026zoom\u003d12\u0026rand\u003d-2144795926\u0026session\u003d5b506eb3-0095-4ee4-02b4-2340-12133efc4116",
+            "transportMode": "AUTO",
+            "attributes": 0,
+            "time": 40,
+            "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_right_sm.gif",
+            "direction": 8
+          },
+          {
+            "distance": 0.293,
+            "streets": [
+              "Bulevardul Ștefan cel Mare și Sfânt"
+            ],
+            "narrative": "Turn slight right onto Bulevardul Ștefan cel Mare și Sfânt.",
+            "turnType": 1,
+            "startPoint": {
+              "lng": 27.579376,
+              "lat": 47.165939
+            },
+            "index": 11,
+            "formattedTime": "00:00:46",
+            "directionName": "Southeast",
+            "maneuverNotes": [],
+            "linkIds": [],
+            "signs": [],
+            "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key\u003dttPFVWcSkTfAuq1R0Q815Nikoj8bvAVf\u0026size\u003d225,160\u0026locations\u003d47.165938999999995,27.579376|marker-12||47.162422,27.582718999999997|marker-13||\u0026center\u003d47.1641805,27.581047499999997\u0026defaultMarker\u003dnone\u0026zoom\u003d11\u0026rand\u003d-2144795926\u0026session\u003d5b506eb3-0095-4ee4-02b4-2340-12133efc4116",
+            "transportMode": "AUTO",
+            "attributes": 0,
+            "time": 46,
+            "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_slight_right_sm.gif",
+            "direction": 5
+          },
+          {
+            "distance": 0.085,
+            "streets": [
+              "Strada I. C. Brătianu"
+            ],
+            "narrative": "Turn left onto Strada I. C. Brătianu.",
+            "turnType": 6,
+            "startPoint": {
+              "lng": 27.582719,
+              "lat": 47.162422
+            },
+            "index": 12,
+            "formattedTime": "00:00:16",
+            "directionName": "Northeast",
+            "maneuverNotes": [],
+            "linkIds": [],
+            "signs": [],
+            "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key\u003dttPFVWcSkTfAuq1R0Q815Nikoj8bvAVf\u0026size\u003d225,160\u0026locations\u003d47.162422,27.582718999999997|marker-13||47.163233999999996,27.584079|marker-14||\u0026center\u003d47.162828,27.583399\u0026defaultMarker\u003dnone\u0026zoom\u003d14\u0026rand\u003d-2144795926\u0026session\u003d5b506eb3-0095-4ee4-02b4-2340-12133efc4116",
+            "transportMode": "AUTO",
+            "attributes": 0,
+            "time": 16,
+            "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_left_sm.gif",
+            "direction": 3
+          },
+          {
+            "distance": 0.097,
+            "streets": [
+              "Strada Agatha Bârsescu"
+            ],
+            "narrative": "Turn right onto Strada Agatha Bârsescu.",
+            "turnType": 2,
+            "startPoint": {
+              "lng": 27.584079,
+              "lat": 47.163234
+            },
+            "index": 13,
+            "formattedTime": "00:00:19",
+            "directionName": "Southeast",
+            "maneuverNotes": [],
+            "linkIds": [],
+            "signs": [],
+            "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key\u003dttPFVWcSkTfAuq1R0Q815Nikoj8bvAVf\u0026size\u003d225,160\u0026locations\u003d47.163233999999996,27.584079|marker-14||47.162150999999994,27.585371|marker-15||\u0026center\u003d47.16269249999999,27.584725\u0026defaultMarker\u003dnone\u0026zoom\u003d13\u0026rand\u003d-2144795926\u0026session\u003d5b506eb3-0095-4ee4-02b4-2340-12133efc4116",
+            "transportMode": "AUTO",
+            "attributes": 0,
+            "time": 19,
+            "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_right_sm.gif",
+            "direction": 5
+          },
+          {
+            "distance": 0,
+            "streets": [],
+            "narrative": "Welcome to IASIO.",
+            "turnType": -1,
+            "startPoint": {
+              "lng": 27.585371,
+              "lat": 47.162151
+            },
+            "index": 14,
+            "formattedTime": "00:00:00",
+            "directionName": "",
+            "maneuverNotes": [],
+            "linkIds": [],
+            "signs": [],
+            "transportMode": "AUTO",
+            "attributes": 0,
+            "time": 0,
+            "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/icon-dirs-end_sm.gif",
+            "direction": 0
+          }
+        ],
+        "hasFerry": false
+      }
+    ],
+    "options": {
+      "arteryWeights": [],
+      "cyclingRoadFactor": 1,
+      "timeType": 0,
+      "useTraffic": false,
+      "returnLinkDirections": false,
+      "countryBoundaryDisplay": true,
+      "enhancedNarrative": false,
+      "locale": "en_US",
+      "tryAvoidLinkIds": [],
+      "drivingStyle": 2,
+      "doReverseGeocode": true,
+      "generalize": -1,
+      "mustAvoidLinkIds": [],
+      "sideOfStreetDisplay": true,
+      "routeType": "FASTEST",
+      "avoidTimedConditions": false,
+      "routeNumber": 0,
+      "shapeFormat": "raw",
+      "maxWalkingDistance": -1,
+      "destinationManeuverDisplay": true,
+      "transferPenalty": -1,
+      "narrativeType": "text",
+      "walkingSpeed": -1,
+      "urbanAvoidFactor": -1,
+      "stateBoundaryDisplay": true,
+      "unit": "M",
+      "highwayEfficiency": 22,
+      "maxLinkId": 0,
+      "maneuverPenalty": -1,
+      "avoidTripIds": [],
+      "filterZoneFactor": -1,
+      "manmaps": "true"
+    },
+    "locations": [
+      {
+        "dragPoint": false,
+        "displayLatLng": {
+          "lng": 26.915355,
+          "lat": 46.556049
+        },
+        "adminArea4": "",
+        "adminArea5": "Bacău",
+        "postalCode": "",
+        "adminArea1": "RO",
+        "adminArea3": "BACĂU",
+        "type": "s",
+        "sideOfStreet": "N",
+        "geocodeQualityCode": "A5XAX",
+        "adminArea4Type": "County",
+        "linkId": 76801625,
+        "street": "",
+        "adminArea5Type": "City",
+        "geocodeQuality": "CITY",
+        "adminArea1Type": "Country",
+        "adminArea3Type": "State",
+        "latLng": {
+          "lng": 26.915356,
+          "lat": 46.556049
+        }
+      },
+      {
+        "dragPoint": false,
+        "displayLatLng": {
+          "lng": 27.584049,
+          "lat": 47.161495
+        },
+        "adminArea4": "",
+        "adminArea5": "Iasio",
+        "postalCode": "",
+        "adminArea1": "RO",
+        "adminArea3": "",
+        "type": "s",
+        "sideOfStreet": "N",
+        "geocodeQualityCode": "A5XAX",
+        "adminArea4Type": "County",
+        "linkId": 78164918,
+        "street": "",
+        "adminArea5Type": "City",
+        "geocodeQuality": "CITY",
+        "adminArea1Type": "Country",
+        "adminArea3Type": "State",
+        "latLng": {
+          "lng": 27.58405,
+          "lat": 47.161494
+        }
+      }
+    ],
+    "time": 6402,
+    "hasUnpaved": false,
+    "locationSequence": [
+      0,
+      1
+    ],
+    "hasFerry": false
+  },
+  "info": {
+    "statuscode": 0,
+    "copyright": {
+      "imageAltText": "© 2018 MapQuest, Inc.",
+      "imageUrl": "http://api.mqcdn.com/res/mqlogo.gif",
+      "text": "© 2018 MapQuest, Inc."
+    },
+    "messages": []
+  }
+}

@@ -1,0 +1,31 @@
+.Person {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.Person__left {
+  display: inline-flex;
+  align-items: center;
+}
+.Person__left__avatar {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  border: 0.5px solid rgba(0, 26, 51, 0.3);
+  border-radius: 50%;
+}
+.Person__left__name {
+  display: inline-flex;
+  margin-left: 10px;
+}
+.Person__actions {
+  display: inline-flex;
+}
+.Person__actions__message:hover {
+  cursor: pointer;
+}
+.Person__actions__expand:hover {
+  cursor: pointer;
+}

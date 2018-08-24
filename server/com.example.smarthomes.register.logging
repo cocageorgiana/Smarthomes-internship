@@ -1,0 +1,5 @@
+2018-07-17 17:07:01 ERROR RegisterController:39 - java.lang.Exception: Registration failed with response code = 500, constraint violated
+2018-07-17 17:07:02 ERROR RegisterController:39 - java.lang.Exception: Registration failed with response code = 500, constraint violated
+2018-07-17 17:07:57 ERROR RegisterController:39 - java.lang.Exception: Registration failed with response code = 500, constraint violated
+2018-07-17 17:07:58 ERROR RegisterController:39 - java.lang.Exception: Registration failed with response code = 500, constraint violated
+2018-07-17 17:08:01 ERROR RegisterController:39 - java.lang.Exception: Registration failed with response code = 500, constraint violated

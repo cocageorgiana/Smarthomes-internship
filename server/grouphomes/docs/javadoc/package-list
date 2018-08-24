@@ -1,0 +1,9 @@
+com.example.smarthomes.grouphomes
+com.example.smarthomes.grouphomes.boundry.controller
+com.example.smarthomes.grouphomes.boundry.exceptions
+com.example.smarthomes.grouphomes.boundry.mapper
+com.example.smarthomes.grouphomes.config
+com.example.smarthomes.grouphomes.entity.model
+com.example.smarthomes.grouphomes.entity.repository
+com.example.smarthomes.grouphomes.service
+com.example.smarthomes.grouphomes.validators

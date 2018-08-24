@@ -1,0 +1,6 @@
+com.example.smarthomes.newsservice
+com.example.smarthomes.newsservice.boundry.controller
+com.example.smarthomes.newsservice.boundry.exceptions
+com.example.smarthomes.newsservice.entity.model
+com.example.smarthomes.newsservice.entity.repository
+com.example.smarthomes.newsservice.service

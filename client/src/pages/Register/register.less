@@ -1,0 +1,63 @@
+@import "../../variables.less";
+
+.register {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+
+  &__container {
+    width: 500px;
+    border: @box-border;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .response {
+      width: 250px;
+      margin: 10px;
+      display: none;
+    }
+    .response--true {
+      border: 1px solid green;
+    }
+
+    .response--false {
+      border: 1px solid red;
+    }
+
+    &__form {
+
+      display: grid;
+      grid-template-columns: auto auto;
+
+
+      &__item {
+        margin: 5px;
+      }
+      // .grid-container {
+      //   display: grid;
+      //   grid-template-columns: auto auto;
+      //   padding: 10px;
+      //   align-items: center;
+      // }
+  
+      // .grid-item {
+      //   margin: 3px;
+      //   label {
+      //     font-size: 14px;
+      //   }
+      // }
+    }
+
+    #submit-btn {
+      margin-top: 20px;
+      width: 80px;
+      height: 30px;
+      font-weight: 600;
+    }
+  }
+}

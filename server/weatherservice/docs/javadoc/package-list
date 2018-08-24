@@ -1,0 +1,4 @@
+com.example.smarthomes.weatherservice
+com.example.smarthomes.weatherservice.boundry.controller
+com.example.smarthomes.weatherservice.boundry.exceptions
+com.example.smarthomes.weatherservice.service

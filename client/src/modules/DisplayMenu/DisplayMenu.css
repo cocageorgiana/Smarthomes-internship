@@ -1,0 +1,22 @@
+.DisplayMenu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: #ddd;
+}
+.DisplayMenu__add {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.DisplayMenu__right {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 5px;
+}
+.DisplayMenu__right__search {
+  margin-right: 5px;
+}
+.DisplayMenu__right__search label {
+  margin-right: 5px;
+}

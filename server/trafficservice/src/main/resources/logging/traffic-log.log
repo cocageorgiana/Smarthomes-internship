@@ -1,0 +1,4 @@
+2018-07-18 12:07:02 ERROR TrafficServiceImpl:53 - java.lang.Exception: GET Request to the Map Quest API failled with the response code=400
+2018-07-18 13:02:32 ERROR TrafficServiceImpl:59 - java.lang.Exception: GET Request to the Map Quest API failled with the response code=400
+2018-07-18 13:03:51 ERROR TrafficServiceImpl:59 - java.lang.Exception: GET Request to the Map Quest API failled with the response code=403
+2018-07-18 13:04:18 ERROR TrafficServiceImpl:59 - java.lang.Exception: GET Request to the Map Quest API failled with the response code=403

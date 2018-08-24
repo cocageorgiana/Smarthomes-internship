@@ -1,0 +1,25 @@
+.UserSettings {
+  display: flex;
+  flex-direction: row;
+}
+.UserSettings__details {
+  margin-top: 60px;
+}
+.UserSettings__forms {
+  margin-left: 30px;
+  min-height: 500px;
+}
+.UserSettings__forms__form__title {
+  margin-left: 20px;
+}
+.UserSettings__forms__form .grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.UserSettings__forms__form .grid-container .grid-item {
+  margin-top: 15px;
+  margin-right: 30px;
+}
+.UserSettings__forms__form .btn-container {
+  margin-top: 30px;
+}

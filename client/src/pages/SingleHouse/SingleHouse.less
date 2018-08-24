@@ -1,0 +1,174 @@
+@import '../../variables.less';
+
+.singleHouse {
+  width: 100%;
+  min-height: 20px;
+  display: flex;
+  flex-direction: column;
+
+  &__dragPeopleContainer {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 70px;
+    height: 50px;
+    bottom: 10px;
+    right: -20px;
+    background: #2980b9;
+    border-radius: 20px;
+    transition: all 0.3s ease-in;
+  }
+
+  &__people {
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    right: -300px;
+    z-index: 2;
+    bottom: 0px;
+    background: rgba(236, 240, 241, 1);
+    transition: all 0.3s ease-in;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    &__administrator {
+      h3 {
+        margin: 10px 0px 10px 10px;
+      }
+    }
+    &__title {
+      h4 {
+        margin: 10px 0px 10px 10px;
+
+      }
+    }
+    &__members {
+      height: 100%;
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
+    
+  }
+
+  hr {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  &__headerRow {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__img {
+      display: inline-flex;
+      width: 100px;
+      height: 100px;
+      border: 1px solid black;
+    }
+
+    &__description {
+      display: inline-flex;
+      h3 {
+        margin: 0;
+      }
+    }
+    
+  }
+  &__itemsRow {
+    height: 400px;
+
+    &__items {
+      height: 360px;
+
+      &__container {
+        display: flex;
+        flex-flow: row wrap;
+        height: 100%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+      }
+    }
+  }
+
+  &__newsRow {
+    display: flex;
+    flex-direction: row;
+
+
+    &__scrollLeft {
+      width: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__news {
+      width: 100%;
+      height: 100px;
+      overflow: hidden;
+      
+      
+      
+      &__content {
+        height: 100px;
+        position: relative;
+        white-space: nowrap;
+        transition: all 0.3s ease-in;
+
+      }
+    }
+
+    &__scrollRight {
+      width: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+  }
+
+
+
+  &__statisticsRow {
+    display: flex;
+
+    &__statistics {
+      height: 300px;
+    }
+  }
+
+
+
+  // &__main {
+  //   flex: 70%;
+  //   display: inline-flex;
+  //   align-items: center;
+  //   justify-content: space-around;
+  //   height: 100%;
+  //   flex-direction: column;
+  //   border: 1px solid black;
+
+  //   &__content {
+  //     width: 100%;
+  //     height:600px;
+  //     border: 1px solid red;
+  //     display: flex;
+  //     align-items: flex-start;
+  //   }
+  // }
+
+  // &__details {
+  //   flex: 30%;
+  //   display: inline-flex;
+  //   flex-direction: column;
+  
+  //   &__img {
+  //     border: @box-border;
+  //     width: @house-card-w;
+  //     height: @house-card-h;
+  //   }
+  // }
+}

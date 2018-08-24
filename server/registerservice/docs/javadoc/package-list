@@ -1,0 +1,8 @@
+com.example.smarthomes.register
+com.example.smarthomes.register.boundry.controller
+com.example.smarthomes.register.boundry.exceptions
+com.example.smarthomes.register.config
+com.example.smarthomes.register.entity.model
+com.example.smarthomes.register.entity.repository
+com.example.smarthomes.register.service
+com.example.smarthomes.register.validators

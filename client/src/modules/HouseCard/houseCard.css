@@ -1,0 +1,51 @@
+.houseCard {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.5px solid rgba(0, 26, 51, 0.3);
+  margin: 20px;
+  position: relative;
+}
+.houseCard__content {
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.houseCard__content__img {
+  width: 90%;
+}
+.houseCard__content__img img {
+  width: 100%;
+  height: auto;
+}
+.houseCard__content__info {
+  text-align: center;
+}
+.houseCard__content__info__gridContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.houseCard__content__info__gridContainer__gridItem {
+  font-size: 14px;
+  padding: 5px;
+  text-align: left;
+}
+.houseCard__content__info__gridContainer__gridItem--label {
+  text-align: right;
+}
+.houseCard__menu {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+.houseCard__menu button {
+  width: 33.33%;
+  height: 30px;
+  padding: 0px;
+  text-align: center;
+}

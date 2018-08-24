@@ -1,0 +1,146 @@
+@import '../../variables.less';
+
+.header {
+  width: 100%;
+  min-height: 10px;
+  background: yellow;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  &__left {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    &__content {
+      min-width: 170px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+    }
+
+    a {
+      padding: 10px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  }
+
+  &__right {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    &__content {
+      min-width: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      &__username {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      &__icon {
+        width: 30px;
+        height: 30px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        button {
+          border: none;
+          background: yellow;
+        }
+
+        button:hover {
+          cursor: pointer;
+        }
+
+        button:focus {
+          outline: none;
+        }
+      }
+
+      &__avatar {
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        .img {
+          width: 30px;
+          height: 30px; 
+          border: @box-border;
+          border-radius: 50%;
+        }
+      }
+
+      &__logout {
+        button {
+          font-weight: 600;
+          border: none;
+          background: yellow;
+          margin-right: 15px;
+        }
+
+        button:focus {
+          outline: none;
+        }
+
+        button:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  // &__content {
+  //   width: 200px;
+  //   display: inline-flex;
+  //   flex-direction: row;
+  //   align-items: center;
+  //   align-self: flex-start;
+
+  //   &--right {
+  //     align-self: flex-end;
+  //   }
+
+  //   &__avatar {
+  //     width: 40px;
+  //     height: 40px;
+  //     display: inline-flex;
+  //     align-items: center;
+  //     justify-content: center;
+
+  //     .img {
+  //       width: 30px;
+  //       height: 30px; 
+  //       border: @box-border;
+  //       border-radius: 50%;
+  //     }
+  //   }
+
+  //   &__username {
+  //     display: inline-flex;
+  //     align-items: center;
+  //     justify-content: center;
+  //   }
+
+    // &__username-container {
+    //   text-align: center;
+    //   line-height: 40px;
+    //   display: inline-flex;
+    //   height: 40px;
+    //   align-self: space-evenly;
+    //   .username {
+        
+    //   }
+    // }
+}

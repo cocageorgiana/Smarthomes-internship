@@ -1,0 +1,44 @@
+{
+    "Headline": {
+        "Category": "thunderstorm",
+        "EndEpochDate": 1532365200,
+        "EffectiveEpochDate": 1532322000,
+        "Severity": 2,
+        "Text": "Thunderstorms Monday",
+        "EndDate": "2018-07-23T20:00:00+03:00",
+        "Link": "http://www.accuweather.com/en/ro/bucharest/287430/daily-weather-forecast/287430?lang=en-us",
+        "EffectiveDate": "2018-07-23T08:00:00+03:00",
+        "MobileLink": "http://m.accuweather.com/en/ro/bucharest/287430/extended-weather-forecast/287430?lang=en-us"
+    },
+    "DailyForecasts": [
+        {
+            "Temperature": {
+                "Minimum": {
+                    "UnitType": 18,
+                    "Value": 67,
+                    "Unit": "F"
+                },
+                "Maximum": {
+                    "UnitType": 18,
+                    "Value": 82,
+                    "Unit": "F"
+                }
+            },
+            "Night": {
+                "IconPhrase": "Partly cloudy w/ t-storms",
+                "Icon": 41
+            },
+            "EpochDate": 1531972800,
+            "Day": {
+                "IconPhrase": "Partly sunny w/ t-storms",
+                "Icon": 17
+            },
+            "Sources": [
+                "AccuWeather"
+            ],
+            "Date": "2018-07-19T07:00:00+03:00",
+            "Link": "http://www.accuweather.com/en/ro/bucharest/287430/daily-weather-forecast/287430?day=1&lang=en-us",
+            "MobileLink": "http://m.accuweather.com/en/ro/bucharest/287430/daily-weather-forecast/287430?day=1&lang=en-us"
+        }
+    ]
+}

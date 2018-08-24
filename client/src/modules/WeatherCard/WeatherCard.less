@@ -1,0 +1,100 @@
+@import '../../variables.less';
+
+.weatherCard {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #f1f1f1;
+  width: 300px;
+  height: 100px;
+
+  &__location {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+    h2 {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      color: @title-color;
+    }
+  }
+
+  &__info {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    &__temperature {
+      display: inline-flex;
+      margin-left: 10px;
+      align-items: center;
+      font-weight: 600;
+      font-size: 25px;
+      color: @title-color;
+      
+      hr {
+        width: 20px;
+        transform: rotate(110deg);
+        margin: 0px;
+      }
+  
+      &__type {
+        font-size: 13px;
+        margin-left: 10px;
+  
+        hr {
+          width: 10px;
+          transform: rotate(0deg);
+        }
+        &__c {
+          font-weight: 100;
+        }
+        &__f {
+          font-weight: 100;
+        }
+  
+        &__c:hover {
+          font-weight: 600;
+        }
+  
+        &__f:hover {
+          font-weight: 600;
+        }
+      }
+    }
+  
+    &__day {
+      display: inline-flex;
+      width: 40px;
+      height: 40px;
+      border: @box-border;
+    }
+
+    
+    &__night {
+      display: inline-flex;
+      width: 40px;
+      height: 40px;
+      border: @box-border;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 600;
+    color: @title-color;
+    
+    &__date {
+      margin-left: 10px;
+    }
+
+    &__seeMore {
+      margin-right: 10px;
+    }
+  }
+  
+}

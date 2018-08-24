@@ -1,0 +1,98 @@
+@import '../../variables.less';
+
+.AddGroupForm {
+  min-width: 400px;
+  min-height: 300px;
+  width: 100%;
+  height: 90%;
+  position: relative;
+  margin-bottom: 10px;
+  
+  &__container {
+    display: flex;
+    flex-flow: column wrap;
+    border: @box-border;
+    width: 94%;
+    position: relative;
+    left: 3%;
+    right: 3%;
+    min-height: 250px;
+
+    &__content {
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      margin-top: 20px;
+
+      &__imgContainer {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 20px;
+        width: 200px;
+        height: 220px;
+        border: @box-border;
+
+        &__img {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 200px;
+          height: 200px;
+        }
+
+        button {
+          text-align: center;
+          width: 100%;
+          height: 20px;
+        }
+      }
+
+      &__form {
+        display: inline-flex;
+        flex-direction: column;
+        height: 220px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+
+    // &__secondRow {
+
+    // }
+    // &__content {
+    //   display: flex;
+    //   flex-direction: row;
+    //   margin-top: 70px;
+
+    //   &__img {
+    //     display: inline-flex;
+    //     flex-direction: column;
+
+    //     &__container {
+    //       border: @box-border;
+    //       display: flex;
+    //       align-items: center;
+    //       justify-content: center;
+    //       width: 200px;
+    //       height: 200px;
+
+    //       button {
+    //         align-self: center;
+    //       }
+    //     }
+  
+
+    //   }
+      
+    //   &__form {
+    //     margin-left: 20px;
+    //   }
+    // }
+
+
+  }
+
+}

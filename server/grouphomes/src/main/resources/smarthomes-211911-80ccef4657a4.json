@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "smarthomes-211911",
+  "private_key_id": "80ccef4657a49473b60a6bed36ec20d3b642c9c2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDVWpeTNtNBbvm\nPe36beGUp/xE/d5aAx1LoPLhbL1cywEr+AFtRaXC+NR7DD157QrSowtk1NAG8wEk\nQD2f0lEC0/WfnddewRmXuV1gSEIwPWMI70NpUwU2fFyOzTxCJWse0Z/vW0FnABMF\nGyfsos5BZHm0n/XiD6p+hthDYzWE48PKIhfaVDO5oKrBeg6f1dBmdUhCijkPZHaN\n9HcTdTZuXSlihmkvpWCZRCfp2IRnaCoPxn4cnWoh2LQ7f6xqAPotH8rYM3imgJ2p\nSSXQV2vEyE7RjWQuqlRZbueufVqi010sH9mZzgC5LIDRPwUFAqkidQu7I44G6p96\nBGDIp/9DAgMBAAECggEAMxLybRXLgaguKVWoFAMHKMeDvsZijUajMlMzLp4wJUMv\nWz/Nn7TGUuSdKk9ZA7hnTAw1vnemrSp88e2aL1/ers6dOs8asTvsZS+iqro6FEL4\n0i09gxyiEE0UJoKjbug5yiUlnIBP6Y6ranpfRhCLva135TKuKB3QhqTbh0M5izVN\noAqxif3bqNfNUU201mq2XNE5evQcpARZTuoK45/DeLCZ/kdXs2f60LUZ42UmBugj\n3JCh0EtidPQi3XEObJ4GCqFMeDHQsOtjE5jS8albpm93Sw6s/rRz6feL3N4bcmMN\nq23QT+wljxsOEWGSe6R4JWT6FbBJRFIq1ltumsdZgQKBgQDuJhGqAu2RArT08YYU\n4QvZhotEIssBqKAuRlxV8332cn/atdNG89od1vHCqMjKT/4qEfiC7ZzrLheQ4Zvk\nseSQOHWLnAOZeYaNbbmHdfcvW/AAg/cdLNka3OexAmck3mE9yz0DlaZWsnY6KnEN\n+JylPp1D+7AfOZvppCdZh114LwKBgQDR+cBUrGJ82QzX24Axnc9FZxdWaDVsGvrS\nJo7mW82Nir4xh6FbM27IfEmh1y+dtLj1KjJlxtPBot06CQoWJ8pjIjW73cvTLvKY\nBCrjwPl+YnbQ5QrNnplArlBjizDbaDP5ZUGOGjLRDxGglGeaWMitdAU0G4+nYg06\nm6+J6T1RLQKBgQCM/dzXWoRrpb6chaFsGxB46D7rR+4IPV0YCHACMvYQQhmP0rYS\n+6vWnrrjFCpMHK/NGHaYjTSpx9AL5oX1D5zSBZsR3HwFEP2oHZ4JpL2DPFsK8xYK\nH9MpJD/HfDS0jzPi8cBdruubyGxWY2ora1TSQA+7f/b1hZXY7WaeipW74QKBgHFB\naekB9jlrBU9kuLeKbCL+IQtdN/twbftuCsPbnnqK7F1gz7qWelmvGDQwEiHZOa4b\nLYXSAaO/Cd5kw8kBe1uPNzZ2wprNBtLR5KRmEOyHhZjVAce4lObbXsbia97cTLRn\nVj2kieZTX2miwmLxIoTUQH5Do29gJsyG7t7PLGCdAoGAWKo1z7n8NBhkboNzKWtC\nXmYMMrfpSBFXebqTLp9W3mMU4h8YIbpW3fD/U0daz4LUXdVEeREjdJF/MzrvV2Hg\nGYxUl9GvRzuJd93KCWIVNgeJ6MCapEEC+bdUfZoBAWYxn3CRWhA4kTo+zRrGvJSa\npYBsT3r9xyKW+HUym1JgD4g=\n-----END PRIVATE KEY-----\n",
+  "client_email": "smarthomes-service@smarthomes-211911.iam.gserviceaccount.com",
+  "client_id": "107166185399576831255",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/smarthomes-service%40smarthomes-211911.iam.gserviceaccount.com"
+}
